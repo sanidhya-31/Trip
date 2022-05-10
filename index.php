@@ -25,6 +25,6 @@
     echo "Successfully inserted";}
     $con->close(); 
 
-   
+    
 
 ?>
