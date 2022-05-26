@@ -21,7 +21,7 @@
   $phone = $_POST['phone'];
   $desc = $_POST['desc'];
   $sql = "INSERT INTO `trip`.`trip` (`name`, `age`, `gender`, `email`, `phone`, `other`, `dt`) VALUES ('$name', '$age', '$gender', '$email', '$phone', '$desc', current_timestamp());";
-  if($con->query($sql) == true){
+  if($con->query($sql) == true){ 
     echo "Successfully inserted";}
     $con->close(); 
 
