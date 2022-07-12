@@ -24,7 +24,7 @@
   if($con->query($sql) == true){ 
     echo "Successfully inserted";}
     $con->close(); 
-
+  
     
  
 ?> 
